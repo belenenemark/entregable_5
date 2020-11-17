@@ -1,0 +1,65 @@
+.page-footer {
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display:block;
+    margin: 0 auto;
+
+}
+.footer_anchor, .footer_img{
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0 auto;
+
+}
+.footer_anchor a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
+.footer_anchor i{
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+}
+.footer_img i{
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+    .footer_anchor a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        margin: 5px;
+        text-align: center;
+    }
+    .footer_anchor i{
+        font-size: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+    .footer_anchor i{
+        font-size: 18px;
+        margin-left: 15px;
+        color: white;
+    }
+    .footer_img i{
+        font-size: 25px;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+}

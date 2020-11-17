@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Tipo de letra y tamaño */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1{
+    font-size:2em ;
+  }
+  h2{
+    font-size:1em ;
+  }
+/* colores */
+.colorceleste1{
+  color:#0C7489; 
+}
+.colorverde{
+  color:#119DA4;
+}
+.colorgris{
+  color:#D7D9CE; 
+}
+.colorNegro{
+  color:black;
+}
+.colorBlanco{
+  color: white;
+}
+.colorVerdeOscuro{
+  color: #13505B;
+}
+.backNegro{
+  background-color:black;
+}
+.backceleste1{
+  background-color:#0C7489; 
+}
+
+.backgris{
+  background-color:#D7D9CE; 
+}
+.backverde{
+  background-color:#119DA4; 
+}

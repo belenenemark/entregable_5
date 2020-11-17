@@ -1,0 +1,139 @@
+.spacer {
+    flex: 0.98;
+  }
+  .nav-bar_logo{
+      margin-left: 20px;
+  }
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  .buscador_responsive{
+      visibility: hidden;
+  }
+  .buscador{
+      display: inline-flex;
+      margin: 0 auto;
+      width:48%;
+    }
+  .buscador input{
+      height: 30px;
+      margin-top: 9px;
+      border-radius: 9px;
+      width: 300px;
+      opacity: 0.5;
+  }
+  .buscador i{
+      margin: 8px;
+      color: white;
+      font-size: 30px;
+  }
+  .side-panel{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    background: #000;
+    z-index: 99;
+    height: 100%;
+  }
+  .side-panel h4{
+      font-size: 25px;
+      margin-top: 25px;
+  }
+  .side-panel_contacto{
+      margin-top: 313px;
+      text-align: center;
+      align-items: center;
+  }
+  .side-panel_contacto a{
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      padding-right: 30px;
+      padding-left: 20px;
+      
+  }
+  .side-panel_contacto i{
+    color: white;
+    font-size: 20px;
+    margin-left: 42px;
+    margin-right: 38px;
+}
+.side-panel_img{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.side-panel_img i{
+    margin: 25px;
+    margin-top: 28px;
+}
+  .side-panel_informacion{
+      color: white;
+      margin-top: 50px;
+      padding-left: 15px;
+  }
+  .side-panel_informacion i{
+      padding: 8px;
+      font-size: 20px;
+  }
+  .side-panel_informacion li{
+      list-style-type: none;
+      color: white;
+      margin-top: 5px;
+      text-decoration: none;
+  }
+  .side-panel_informacion a{
+      color: white;
+      text-decoration: none;
+      font-size: 19px;
+      font-style: oblique;
+  }
+    .user i{
+        color: white;
+        font-size: 30px;
+        padding: 15px;
+        
+    }
+    .user_notificaciones{
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        background-color: red;
+        border: 2px solid red;
+        position: fixed;
+        margin-top: -55px;
+    }
+  @media screen and (max-width: 767px) {
+    .spacer {
+        flex: 0.85;
+      }
+      .nav-bar_logo{
+          margin-left: 10px;
+      }
+      .buscador input, .fa-bell, .side-panel{
+        visibility: hidden;
+    }
+    .user_notificaciones{
+        margin-top: -42px;
+        margin-left: 45px;
+    }
+    .buscador{
+        visibility: hidden;
+    }
+    .buscador_responsive{
+        visibility: visible;
+        color: white;
+        font-size: 28px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+     }
+  }
