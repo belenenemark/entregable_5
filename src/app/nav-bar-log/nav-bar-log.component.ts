@@ -19,7 +19,7 @@ export class NavBarLogComponent implements OnInit {
    
   }
   
-  public createComponent():void{
+   public createComponent():void{
    console.log("llega hasta aca el click");
    this.dynamicHost.viewContainerRef.clear();
    const component =this.componentFactoryResolver.resolveComponentFactory(DynamicComponent);
