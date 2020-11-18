@@ -7,6 +7,9 @@ import { NavBarLogComponent } from './nav-bar-log/nav-bar-log.component';
 import { FooterLogComponent } from './footer-log/footer-log.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { DynamicHostDirective } from './directive/dynamic-host.directive';
+import { DynamicComponent } from './dynamic/dynamic.component';
+import { Dynamic1Component } from './dynamic1/dynamic1.component';
 
 
 
@@ -18,6 +21,12 @@ import { FooterComponent } from './footer/footer.component';
     FooterLogComponent,
     NavBarComponent,
     FooterComponent,
+    DynamicHostDirective,
+    DynamicComponent,
+    Dynamic1Component,
+  ],
+  entryComponents:[
+    DynamicComponent
   ],
   imports: [
     BrowserModule,

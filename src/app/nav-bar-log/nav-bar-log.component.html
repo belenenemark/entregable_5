@@ -22,12 +22,14 @@
         <h4><i class="fa fa-star" aria-hidden="true"></i>Favoritos</h4>
         <div class="spacer"></div>
         <h4><i class="fa fa-play" aria-hidden="true"></i>Reproduciendo</h4>
-        <ul>
-            <li><a href="">Ver canción/Podcast</a></li>
+        <!-- <ul>
+            <li class="create">Ver canción/Podcast</li>
             <li><a href="">Ver Artista/Autor</a></li>
             <li><a href="">Agregar a PlayList</a></li>
             <li><a href="">Agregar a Favoritos</a></li>
-        </ul>        
+        </ul>         -->
+        <button (click)="createComponent()">Crear Componente</button>
+        <button (click)="createComponent2()">Crear Componente 2</button>
     </div>
     <div class="side-panel_contacto">
         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -44,4 +46,7 @@
         <i class="fa fa-facebook" aria-hidden="true"></i>
     </div>
 </div>
+</div>
+<div class="dinamico">
+    <ng.template appDynamicHost ></ng.template>
 </div>
