@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DynamicHostDirective } from './directive/dynamic-host.directive';
 import { DynamicComponent } from './dynamic/dynamic.component';
 import { Dynamic1Component } from './dynamic1/dynamic1.component';
+import { PruebaflexComponent } from './pruebaflex/pruebaflex.component';
 
 
 
@@ -24,6 +25,7 @@ import { Dynamic1Component } from './dynamic1/dynamic1.component';
     DynamicHostDirective,
     DynamicComponent,
     Dynamic1Component,
+    PruebaflexComponent,
   ],
   entryComponents:[
     DynamicComponent

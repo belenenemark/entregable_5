@@ -1,3 +1,8 @@
+app-nav-bar{
+    width: 100%;
+}
+
+
 .infoSpoiler{
     width: 1920px;
     height: 540px;
@@ -5,24 +10,38 @@
     display: flex;
 }
 
-.chica1{   
-    width: 414px;
+.imagen_1{   
+    width: 33%;
     height: 419px;
-    margin-left: 284px;
-    margin-top: 184px;
 }
 
 .chico{
-    width: 354px;
+    margin-left: 30%;
+    margin-top: 26%;
+    width:400px;
+}
+.chica1{
+    margin-top: 30%;
+    width:400px;
+}
+
+.imagen_2{
+    width: 33%;
     height: 369px;
-    margin-left: 87px;
-    margin-top: 160px;
 
 }
 .info{
-    margin-top: 90px;
-    margin-left: 297px;
-    width: 370px;
+    margin-top: 5%;
+    width: 33%;
     text-align: center;
     font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    app-nav-bar{
+        width: 100%;
+    }
+    .infoSpoiler{
+        display: none;
+    }
 }

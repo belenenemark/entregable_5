@@ -1,4 +1,4 @@
-import { DynamicHostDirective } from './dynamic-host.directive';
+import { DynamicHostDirective} from './dynamic-host.directive';
 
 describe('DynamicHostDirective', () => {
   it('should create an instance', () => {
