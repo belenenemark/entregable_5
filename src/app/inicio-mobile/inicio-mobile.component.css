@@ -8,10 +8,10 @@ p{
     text-align: center;
 }
 .botonera{
-    margin-left: 40px;
     display: inline-grid;
 }
 .boton{
+    margin-left:50px;
     font-size: 26px;
     color: white;
     margin-top: 20px;

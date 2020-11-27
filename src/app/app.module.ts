@@ -14,6 +14,8 @@ import { PruebaflexComponent } from './pruebaflex/pruebaflex.component';
 import { PlanesComponent } from './planes/planes.component';
 import { PlanesCardComponent } from './planes-card/planes-card.component';
 import { InicioMobileComponent } from './inicio-mobile/inicio-mobile.component';
+import { SesionComponent } from './sesion/sesion.component';
+import { RegistroComponent } from './registro/registro.component';
 
 
 
@@ -32,6 +34,8 @@ import { InicioMobileComponent } from './inicio-mobile/inicio-mobile.component';
     PlanesComponent,
     PlanesCardComponent,
     InicioMobileComponent,
+    SesionComponent,
+    RegistroComponent,
   ],
   entryComponents:[
     DynamicComponent
