@@ -1,1 +1,38 @@
-<p>registro works!</p>
+<!-- NavBar -->
+<div class="nav">
+    <app-nav-bar></app-nav-bar>
+</div>
+
+<!-- Home no logeado desktop  -->
+<div class="infoSpoiler backceleste1 ">
+    <div class="imagen_1">
+        <img src="../../assets/img/svg-images/chico-escuchando.png" class="chico">
+    </div>
+    
+    <div class="info">
+        <h1>Spoiler Five Inc.</h1>
+        <form action="/home-log" method="post">
+            <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+            <input type="email" name="Email" id="email" placeholder="Email" required>
+            <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+            <input type="password2" name="pass2" id="pass2" placeholder="Confirmar Contraseña" required>
+            <input   type="submit" class="boton backverde" id="submit" value="Registrarse">
+        </form>
+        
+    </div>
+    <div class="imagen_2">
+        <img src="../../assets/img/svg-images/chica-escuchando.png" class="chica1">
+    </div>
+  
+</div>
+<div class="backgris planes">
+    <app-planes ></app-planes>
+</div>
+
+<!-- Home no logeado mobile -->
+<div class="inicio">
+    <app-inicio-mobile></app-inicio-mobile>
+</div>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,125 @@
+app-nav-bar{
+    width: 100%;
+}
+
+
+.infoSpoiler{
+    width: 1920px;
+    height: 500px;
+    display: flex;
+}
+
+h1{
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+
+.imagen_1{   
+    width: 33%;
+    height: 419px;
+}
+
+.chico{
+    margin-left: 20%;
+    margin-top: 20.3%;
+    width:400px;
+}
+.chica1{
+    margin-top: 24%;
+    width:400px;
+}
+
+.imagen_2{
+    width: 33%;
+    height: 369px;
+
+}
+.info{
+    margin-top: 8%;
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+}
+.boton{
+    font-size: 26px;
+    color: white;
+    margin-top: 20px;
+    width: 240px;
+    height: 40px;
+    border-radius: 50px;
+}
+.planes{
+    width: 1920px;
+    height: 500px;
+}
+.inicio{
+    display: none;
+}
+@media screen and (max-width: 1400px){
+    .infoSpoiler{
+        width: 100%;
+        height: 530px;
+        margin-top: 60px;
+        display: flex;
+    }
+    .planes{
+        width:100%;
+        height: 500px;
+    }
+    .chico{
+        margin-left: 20%;
+        margin-top: 35%;
+        width:400px;
+    }
+    .chica1{
+        margin-top: 39%;
+        width:400px;
+    }
+    .imagen_1{   
+        width: 33%;
+        height: 400px;
+    }
+    .imagen_2{
+        width: 33%;
+        height: 369px;
+    }
+}
+form{
+    display: inline-grid;
+}
+#submit{
+    margin-top: 25px;
+}
+.clave{
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+input{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 15px;
+    
+}
+#email{
+    margin-bottom: 20px;
+
+}
+@media screen and (max-width: 767px){
+    app-nav-bar{
+        width: 100%;
+    }
+    .infoSpoiler,.planes,.nav{
+        display: none;
+    }
+    .inicio{
+        display: block;
+        background-color: black;
+        color: white;
+        height: 560px;
+    }
+    
+}
