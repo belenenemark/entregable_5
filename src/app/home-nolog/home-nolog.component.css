@@ -40,6 +40,9 @@ app-nav-bar{
     width: 1920px;
     height: 500px;
 }
+.inicio{
+    display: none;
+}
 @media screen and (max-width: 1400px){
     .infoSpoiler{
         width: 100%;
@@ -73,8 +76,14 @@ app-nav-bar{
     app-nav-bar{
         width: 100%;
     }
-    .infoSpoiler,.planes{
+    .infoSpoiler,.planes,.nav{
         display: none;
+    }
+    .inicio{
+        display: block;
+        background-color: black;
+        color: white;
+        height: 560px;
     }
     
 }

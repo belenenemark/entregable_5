@@ -13,6 +13,7 @@ import { Dynamic1Component } from './dynamic1/dynamic1.component';
 import { PruebaflexComponent } from './pruebaflex/pruebaflex.component';
 import { PlanesComponent } from './planes/planes.component';
 import { PlanesCardComponent } from './planes-card/planes-card.component';
+import { InicioMobileComponent } from './inicio-mobile/inicio-mobile.component';
 
 
 
@@ -30,6 +31,7 @@ import { PlanesCardComponent } from './planes-card/planes-card.component';
     PruebaflexComponent,
     PlanesComponent,
     PlanesCardComponent,
+    InicioMobileComponent,
   ],
   entryComponents:[
     DynamicComponent
