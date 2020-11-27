@@ -1,0 +1,24 @@
+[
+    {"name":"Free",
+    "description":["Disfruta de la música de tu eleccion de forma aleatorea, con saltos diarios limitados y pausas con anuncios propios.",
+        "Pasate a premium para beneficios exclusivos."],
+        "price":"Gratis"},
+    {"name":"Indie",
+        "description":["Tu música sin anuncios",
+            "Unico usuario",
+            "Donde quieras ya sea en linea u offline.",
+        "Reproduccion on-demand ",
+    "Creacion propia de playlists."],
+            "price":"USD $1"},
+    {"name":"Duo",
+     "description":["idem plan Indie",
+             "Para conectar dos cuentas en simultaneo.",
+            "PlayList tematizada para cada usuario."],
+    "price":"USD $2"},
+    {"name":"MultiFive",
+        "description":["idem plan Duo",
+                "Conectar cinco cuentas en simultaneo",
+               "Descuentos en eventos con partner asociados"],
+       "price":"USD $3"}
+]
+
